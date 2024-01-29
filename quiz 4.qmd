@@ -1,9 +1,9 @@
 ---
-title: "Analysis of Daily Shelter Occupancy in Toronto"
+title: "quiz 4"
 author: Yaning Jin
 ---
 
-```{r}
+```{r, include=FALSE}
 install.packages("janitor")
 library("janitor")
 install.packages("knitr")
@@ -14,6 +14,9 @@ install.packages("tidyverse")
 library("tidyverse")
 
 
+```
+
+```{r}
 set.seed(0) 
 
 n_friends <- 20
